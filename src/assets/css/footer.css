@@ -1,0 +1,45 @@
+.footer {
+    background: #B69C77;
+    height: 800px;
+}
+
+.footer-content {
+    padding-top: 8%;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-content-left {
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+.footer-content-right {
+    -webkit-box-flex: 1;
+    flex: 1;
+    text-align: justify;
+}
+
+span.wave {
+    animation-name: wave-animation;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+    10% { transform: rotate(-10.0deg) }
+    20% { transform: rotate( 12.0deg) }
+    30% { transform: rotate(-10.0deg) }
+    40% { transform: rotate(  9.0deg) }
+    50% { transform: rotate(  0.0deg) }
+    100% { transform: rotate(  0.0deg) }
+}

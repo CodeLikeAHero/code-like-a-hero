@@ -1,0 +1,85 @@
+.NavigationBar {
+  z-index: 1;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  top: 0;
+  z-index: 9;
+  background: white;
+  box-shadow: 0 0 1px rgba(67, 90, 111, 0.47),
+  0 2px 4px -2px rgba(67, 90, 111, 0.3);
+}
+
+.NavigationBar-nav {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+
+.NavigationBar-navRight {
+  display: flex;
+  align-items: center;
+}
+
+.NavigationBar-navRight > span {
+  margin-right: 16px;
+}
+
+.NavigationBar-link {
+  color: #425a70;
+  text-transform: uppercase;
+  line-height: 16px;
+  font-size: 14px;
+  padding: 10px 12px;
+  margin-right: 8px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+}
+
+.NavigationBar-link:last-child {
+  margin-right: 0;
+}
+
+.NavigationBar-link:hover {
+  background-color: rgba(67, 90, 111, 0.06);
+}
+
+.NavigationBar-link:active{
+  background-color: rgba(16, 112, 202, 0.09);
+  color: #1070ca;
+}
+
+.NavigationBar-link .focus-visible {
+  box-shadow: inset 0 0 0 2px rgba(16, 112, 202, 0.47);
+}
+
+.NavigationBar-link .icon-holder {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  top: -1px;
+  margin: 8px;
+}
+
+.NavigationBar-link .focus-ring-link {
+  position: relative;
+}
+
+.NavigationBar-link .focus-visible::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -4px;
+  left: -6px;
+  right: -6px;
+  bottom: -4px;
+  box-shadow: 0 0 0 2px rgba(16, 112, 202, 0.47);
+  border-radius: 3px;
+}
