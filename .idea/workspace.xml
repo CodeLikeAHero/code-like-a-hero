@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8b4a5b1-7fcf-4555-b139-a4b1364c9a10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/homePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/bb8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/navigation-bar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/screen.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/tags.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Animation/bb8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icon/src/GitHubIcon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NavigationBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/content/reactPost/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/HomePage/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/configureStore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="f8b4a5b1-7fcf-4555-b139-a4b1364c9a10" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -152,7 +133,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
+            <state relative-caret-position="-323">
               <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
@@ -347,12 +328,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572116552835</updated>
-      <workItem from="1572116554167" duration="19908000" />
+      <workItem from="1572116554167" duration="20104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19908000" />
+    <option name="totallyTimeSpent" value="20104000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="814" extended-state="6" />
@@ -742,7 +723,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
+        <state relative-caret-position="-323">
           <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
