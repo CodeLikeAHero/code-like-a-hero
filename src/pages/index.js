@@ -7,6 +7,7 @@ import {PersistGate} from 'redux-persist/es/integration/react';
 
 import {history} from './../store/configureStore';
 import HomePage from './HomePage';
+import News from './News';
 
 const {persistor, store} = ConfigureStore();
 
@@ -17,6 +18,7 @@ const IndexPage = () => {
                 <ConnectedRouter history={history}>
                     <Switch>
                         <Route path='/' component={HomePage}/>
+                        <Route path='/News' component={News}/>
                     </Switch>
                 </ConnectedRouter>
             </PersistGate>
@@ -25,4 +27,5 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
+
 

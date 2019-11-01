@@ -6,8 +6,6 @@ import Animation from './../../components/Animation/bb8';
 import Footer from './../../components/Footer/Footer';
 import './../../assets/css/content.css';
 
-
-
 const mapStateToProps = state => {
     return {
         state
@@ -20,9 +18,6 @@ const mapDispatchToProps = dispatch => ({
 class HomePage extends Component {
     constructor(props) {
         super(props);
-    }
-
-    componentWillMount() {
     }
 
     render() {
