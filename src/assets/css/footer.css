@@ -15,6 +15,13 @@
     align-items: center;
 }
 
+.footer-technologies {
+    padding-top: 8%;
+    margin-left: 50px;
+    margin-right: 50px;
+    flex-basis: 100%;
+}
+
 .footer-content-left {
     -webkit-box-flex: 1;
     flex: 1;

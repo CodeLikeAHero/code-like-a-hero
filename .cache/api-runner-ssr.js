@@ -1,9 +1,6 @@
 var plugins = [{
-      plugin: require('/Users/RMendes/code-like-a-hero/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
-      options: {"plugins":[]},
-    },{
       plugin: require('/Users/RMendes/code-like-a-hero/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/images/gatsby-icon.png"},
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#663399","theme_color":"#663399","display":"minimal-ui","icon":"src/assets/img/logo.jpg"},
     },{
       plugin: require('/Users/RMendes/code-like-a-hero/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
